@@ -20,24 +20,8 @@ int main()
     {
         printf("Greatest num is = %d",n2);
     }
-    else if(n3>n2 && n1<n3)
+    else
     {
         printf("Greatest num is = %d",n3);
-    }
-    else if(n1==n2 && n1>n3)
-    {
-        printf("Greatest num is = %d",n1);
-        printf("\ntwo values are same as %d",n1);
-    }
-
-    else if(n3==n2 && n1<n3)
-    {
-        printf("Greatest num is = %d",n3);
-        printf("\ntwo values are same as %d",n3);
-    }
-    else if(n1==n3 && n2<n3)
-    {
-        printf("Greatest num is = %d",n3);
-        printf("\ntwo values are same as %d",n1);
     }
 }
