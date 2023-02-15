@@ -9,7 +9,7 @@ main()
     scanf("%d",&y);
 
     z=sum(x,y);
-    printf("Sum = %d",z);
+    printf("Sum of both number = %d",z);
 }
 int sum(int a, int b) //defining
 {
